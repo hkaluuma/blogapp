@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel</title>
-
-        </style>
-    </head>
-    <body>
-        
-    </body>
-</html>
+@extends('layouts.master')
+@section('content')
+    <h1>Some Content</h1>
+@endSection
